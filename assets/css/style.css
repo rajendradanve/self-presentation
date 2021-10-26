@@ -2,7 +2,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #e3f2fd;
+    
+}
+
+.section-placement{
+    height: 100vh;
+    margin-top: 85px;
     position: relative;
-    padding-top: 85px;
 }
 
