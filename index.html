@@ -14,15 +14,15 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target="#sections-navbar" data-bs-offset="85" >
        <!--Nav bar-->
-       <nav id="sections-navbar" class="navbar bg-light navbar-expand-lg fixed-top">
+       <nav id="sections-navbar" class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
         <a class="navbar-brand ms-2 ms-md-3 ms-lg-5" href="index.html">
             <h1>Rajendra Danve</h1>
         </a>
         <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon navbar-toggler-border"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center navbar-light me-lg-5">
-            <ul class="navbar-nav nav-pills">
+        <div class="collapse navbar-collapse justify-content-center">
+            <ul class="nav nav-pills">
                 <li class="nav-item"><a class="nav-link p-3" href="#summary-section">Summary</a></li>
                 <li class="nav-item"><a class="nav-link p-3" href="#coding-journey-section">Coding Journey</a></li>
                 <li class="nav-item"><a class="nav-link p-3" href="#projects-section">Projects</a></li>
@@ -43,7 +43,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-12 col-md-4 mx-auto ">
-                            <img class="rounded-circle" src="./assets/media/images/rajendra.jpg" alt="rajendra danve photo">
+                            <img class="border border-danger rounded-circle" src="./assets/media/images/rajendra.jpg" alt="rajendra danve photo">
                         </div>
                         <div class="col-12 col-md-8 mx-auto my-2 ">
                             <h4 class="text-center"><i class="fas fa-university"></i> <strong class="p-2">Education</strong> </h4>
@@ -68,25 +68,29 @@
 
             </div>
         </section>
+
         <section id="coding-journey-section" class="section-placement">
-            <div class="row h-100">
+            <div class="row h-100 mt-5">
                 <div class="col">
                     <h2 class="text-center">Coding Journey</h2>
                     <hr>
                    <ul>
                         <li> 1st time I learned programming language "Basic" during my 10th grade </li>
-                        <li> During my university study I learned languages such as C and VB as part of curriculam</li>
+                        <li> During my university study I learned languages such as C and VB as part of curriculum</li>
                         <li> During year 2015- 2017, I learned website development and andriod develoment from 
                             <a href="https://www.udemy.com/">Udemy</a> and <a href="https://www.youtube.com/">Youtube</a>.</li>
-                        <li>From December 2020 I started "Diploma in Full Stack Development" from <a href="https://www.codeinstitute">Code Institute</a>.</li>
+                        <li> Developed android mobile apps (basic math app, coupon system for shops)</li>
+                        <li> I am doing "Diploma in Full Stack Development" from <a href="https://www.codeinstitute">Code Institute</a>.</li>
                    </ul>
 
                    <h2 class="text-center">Programming Languages Learned</h2>
                     <hr>
                     <ul>
                         <li><strong>Frontend Development:</strong> HTML, CSS3, javascript</li>
-                        <li><strong>BackEnd Development:</strong>  Python</li>
+                        <li><strong>BackEnd Development:</strong>Python, PHP</li>
                         <li><strong>Libraries/Framework:</strong>  Bootstrap, MaterializeCSS, JQuery, Flask, Django</li>
+                        <li><strong>DataBase:</strong> MySQL, MongoDB </li>
+                        <li><strong>Other:</strong>Java</li>
                     </ul>
 
                 </div>
@@ -97,9 +101,9 @@
         </section>
 
         <section id="projects-section" class="section-placement">
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <div class="card mx-3" style="width: 18rem;">
+            <div class="row mt-5">
+                <div class="col-12 col-md-4">
+                    <div class="card mx-3">
                         <img src="./assets/media/images/multiscreen-spicy-dhaba.png" class="card-img-top p-1" alt="Spicy Dhaba Project Image">
                         
                         <div class="card-body">
@@ -113,8 +117,10 @@
                          
                         </div>
                       </div>
+                </div>
 
-                      <div class="card mx-3" style="width: 18rem;">
+                <div class="co-12 col-md-4">
+                    <div class="card mx-3"">
                         <img src="./assets/media/images/responsive-game-page.png" class="card-img-top p-1" alt="Connect Four Project Image">
                         <div class="card-body">
                           <h5 class="card-title fw-bolder fst-italic text-center"> Interactive Frontend Development</h5>
@@ -126,27 +132,29 @@
                          </div>
                         </div>
                       </div>
+                </div>
 
-                      <div class="card mx-3" style="width: 18rem;">
+                <div class="col-12 col-md-4">
+                    <div class="card mx-3">
                         <img src="./assets/media/images/readwise-responsive-all-book-page.png" class="card-img-top p-1" alt="Connect Four Project Image">
                         <div class="card-body">
                           <h5 class="card-title fw-bolder fst-italic text-center"> Datacentric Web Development</h5>
                          <hr>
-                          <p class="card-text"> <strong>Technologies Used:</strong><br>HTML, CSS, MaterializeCSS, JavaScript, JQuery, Python, Flask, Heroku, MonngoDB</p>
+                          <p class="card-text"> <strong>Technologies Used:</strong><br>HTML, CSS, MaterializeCSS, JavaScript, JQuery, Python, Flask, Heroku, MongoDB</p>
                          <div class="d-flex justify-content-center">
                             <a href="https://read-wise.herokuapp.com/" target="_blank" class="btn btn-primary mx-2">Live Link</a>
                             <a href="https://github.com/rajendradanve/readwise" target="_blank" class="btn btn-primary mx-2">Repo Link</a>
                          </div>
                         </div>
                       </div>
-
                 </div>
+                    
             </div>
 
         </section>
 
         <section id="why-me-section" class="section-placement">
-            <div class="row h-100">
+            <div class="row h-100 mt-5">
                 <div class="col">
                     <h2 class="text-center">Why me?</h2>
                     <hr>
@@ -155,9 +163,10 @@
                         <li> I have engineering educational background. </li>
                         <li> I have experience from industry and working with challenging project with tight deadlines.</li>
                         <li> I have passion and interest to develop myself in this filed.</li>
+                        <li> I am passionate about mathematics and solving problem logically.</li>
                         <li> I am proactive, structured, quick learner and solution oriented person. 
                             I am always ready to take responsibilities and sincerly work hard towards achieving my goals.</li>
-                        <li> I love and like mathematics and solving problem logically.</li>
+                        
                    </ul>
                 </div>
                 
@@ -166,13 +175,14 @@
         </section>
 
         <section id="goals-section" class="section-placement">
-            <div class="row h-100">
+            <div class="row h-100 mt-5">
                 <div class="col">
                     <h2 class="text-center">Goals in coming 3 to 5 years</h2>
                     <hr>
                    <ul>
-                        <li> Become an expert in a domain, technology and language required in my work </li>
-                        <li> Work on the upcoming technology development. </li>                     
+                        <li> Apply my knowldge and development skills for organisational projects</li>
+                        <li> Become an expert in domain, technology and programming skills required in my work </li>
+                        <li> Work on the latest technological development. </li>                     
                    </ul>
                 </div>
                 
